@@ -95,12 +95,25 @@ li {
     overflow: auto;
 }
 
+#portCont {
+    position: relative;
+}
+
 #profilePic {
     float: left;
 }
 
+.wFont {
+    color: #ffffff;
+}
+
+.imgSize {
+    width: 320px;
+    height: 240px;
+}
+
 p {
-    line-height: 1.5em;
+    line-height: 1.75em;
     color: #777777;
     float: left;
 }
