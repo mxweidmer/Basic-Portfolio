@@ -112,6 +112,27 @@ li {
     height: 240px;
 }
 
+.imgDiv {
+    float: left;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.imgRight {
+    margin-left: 30px;
+}
+
+.imgLabel {
+    position: absolute;
+    background: #4aaaa5;
+    color: #ffffff;
+    bottom: 15px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
 p {
     line-height: 1.75em;
     color: #777777;
