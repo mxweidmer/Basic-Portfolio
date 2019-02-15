@@ -72,8 +72,8 @@ li {
     height: 100%;
     margin-top: 0%;
     float: left;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .divMContent {
@@ -81,7 +81,6 @@ li {
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
-    clear: both;
     border: 1px solid #dddddd;
     background: white;
 }
@@ -91,15 +90,25 @@ li {
 }
 
 .divInsideM {
-    padding: 20px;
+    padding: 30px;
     padding-top: 10px;
+    overflow: auto;
 }
 
 #profilePic {
+    float: left;
+}
+
+p {
+    line-height: 1.5em;
+    color: #777777;
+    float: left;
 }
 
 #p1 {
     float: left;
+    width: 75%;
+    margin-left: 20px;
 }
 
 #button {
@@ -129,8 +138,4 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-
-.clear {
-    clear: both;
 }
