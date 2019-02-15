@@ -72,6 +72,7 @@ li {
 
 .divInsideM {
     padding: 20px;
+    padding-top: 10px;
 }
 
 #profilePic {
@@ -80,6 +81,22 @@ li {
 
 #p1 {
     float: left;
+}
+
+#button {
+    background: #4aaaa5;
+    border: 0;
+    color: #ffffff;
+    padding: 5px 20px 5px 20px;
+}
+
+.textInputs {
+    margin-top: 5px;
+    width: 100%;
+}
+
+#message {
+    height: 150px;
 }
 
 footer {
