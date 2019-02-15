@@ -1,44 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Basic Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
     <header>
-        <div>
-            <h1>Maxwell Weidmer</h1>
+        <div class="divHeader">
+            <div class="divName">
+                <h1>Maxwell Weidmer</h1>
+            </div>
 
-            <ul>
-                <li><a href="index.html" target="_blank">About</a></li>
-                <li><a href="portfolio.html" target="_blank">Portfolio</a></li>
-                <li>Contact</li>
-            </ul>
+            <div class="divPList">
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li>Contact</li>
+                </ul>
+            </div>
         </div>
     </header>
 
-    <div>
-        <h1>Contact</h1>
+    <div class="divMContent">
+        <div class="divInsideM">
+            <h1 class="mContHead">Contact</h1>
 
-        <hr>
+            <hr>
 
-        <form>
-            Name
-            <br>
-            <input type="text" name="Name">
-            <br>
-            Email
-            <br>
-            <input type="text" name="Email">
-            <br>
-            Message
-            <br>
-            <input type="text" name="Message">
-            <br>
-            <input type="submit" value="Submit">
-        </form>
+            <form>
+                Name
+                <br>
+                <input type="text" name="Name">
+                <br>
+                Email
+                <br>
+                <input type="text" name="Email">
+                <br>
+                Message
+                <br>
+                <input type="text" name="Message">
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
     </div>
 
     <footer>
@@ -47,4 +56,5 @@
 
     </footer>
 </body>
+
 </html>

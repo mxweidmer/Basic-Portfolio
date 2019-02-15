@@ -74,6 +74,14 @@ li {
     padding: 20px;
 }
 
+#profilePic {
+    float: left;
+}
+
+#p1 {
+    float: left;
+}
+
 footer {
     text-align: center;
     background: #666666;
@@ -83,4 +91,8 @@ footer {
     padding-bottom: 5px;
     margin-top: 100px;
     font-size: 0.75em;
+}
+
+.clear {
+    clear: both;
 }
