@@ -42,7 +42,24 @@ li {
     display: inline;
 }
 
-#liMiddle {
+.navLinks {
+    color: #777777;
+    text-decoration: none;
+}
+
+#aboutLink {
+    font-weight: bold;
+}
+
+#contactLink {
+    font-weight: bold;
+}
+
+#portfolioLink {
+    font-weight: bold;
+}
+
+.liMiddle {
     border-left: 1px solid #cccccc;
     border-right: 1px solid #cccccc;
     padding-left: 5px;
@@ -79,7 +96,6 @@ li {
 }
 
 #profilePic {
-    float: left;
 }
 
 #p1 {
