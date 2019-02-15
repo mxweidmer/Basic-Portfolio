@@ -136,12 +136,13 @@ li {
 p {
     line-height: 1.75em;
     color: #777777;
-    float: left;
 }
 
-#p1 {
-    width: 75%;
+.pImg {
+    float: left;
+    width: 76%;
     margin-left: 20px;
+    margin-bottom: 15px;
 }
 
 #button {
