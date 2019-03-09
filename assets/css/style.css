@@ -167,6 +167,7 @@ form {
 }
 
 footer {
+    margin-top: 10%;
     text-align: center;
     background: #666666;
     color: #777777;
@@ -174,7 +175,7 @@ footer {
     padding-top: 50px;
     padding-bottom: 5px;
     font-size: 0.75em;
-    position: fixed;
+    position: sticky;
     bottom: 0;
     width: 100%;
 }
